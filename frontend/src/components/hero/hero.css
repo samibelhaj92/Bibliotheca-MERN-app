@@ -1,0 +1,124 @@
+/* Fonts Chart */
+/* font-family: 'Bodoni Moda', serif; */
+
+.Hero_Main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Brand {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Brand img {
+width: 50%;
+}
+
+.Brand_Pitch h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 50pt;
+  text-align: center;
+  color: #ece8df;
+  transition: color 2s ease-out 100ms
+}
+
+.Brand_Pitch h1:hover {
+    color: #473C38;
+  }
+
+.Sign_Button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    margin-bottom: 50pt;
+}
+
+/* CSS button-52  */
+
+.SignUp_Button {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  color: white;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid white;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.SignUp_Button:after {
+  content: "";
+  background-color: #6188E9;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.SignUp_Button:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .SignUp_Button {
+    padding: 13px 50px 13px;
+  }
+}
+
+/* CSS button-52 */
+.SignIn_Button {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: white;
+    padding: 13px 20px 13px;
+    outline: 0;
+    border: 1px solid white;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .SignIn_Button:after {
+    content: "";
+    background-color: #E9C261;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+  }
+  
+  .SignIn_Button:hover:after {
+    top: 0px;
+    left: 0px;
+  }
+  
+  @media (min-width: 768px) {
+    .SignIn_Button {
+      padding: 13px 50px 13px;
+    }
+  }

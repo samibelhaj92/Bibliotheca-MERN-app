@@ -1,0 +1,70 @@
+.BookScreen {
+    max-width: 1300px;
+    margin: 1rem auto;
+    display: flex;
+}
+
+.BookScreen__Left {
+    display: flex;
+    flex: 0.8;
+}
+
+.Left__Image {
+    margin: 1rem;
+    flex: 0.6;
+}
+
+.Left__Info {
+    margin: 1rem;
+    flex: 0.4;
+    background: #fff;
+    height: fit-content;
+    font-size: 0.9rem;
+}
+
+.Left__Title {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.Left__Info > p,
+.Right__Info > p {
+    padding: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.Left__Info > p:last-child,
+.Right__Info > p:last-child {
+    border: none;
+}
+
+.BookScreen__Right {
+    flex: 0.2;
+}
+
+.Right__Info {
+    width: 250px;
+    margin: 1rem;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.Right__Info p {
+    padding: 1rem;
+    font-size: 0.8 rem;
+    display: grid;
+    grid-template-columns: repeat(2,-1fr);
+}
+
+.Right__Info p > button {
+    grid-column: 1/-1;
+    padding: 10px 16px;
+    background: #171717;
+    color: #f4f4f4;
+    border: 1px solid #171717;
+    cursor: pointer;
+}
+
+.Right__Info select {
+    padding: 10px 16px;
+}

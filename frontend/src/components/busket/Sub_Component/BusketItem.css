@@ -1,0 +1,44 @@
+.BusketItem {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 8px;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
+    gap: 8px;
+    background: #fff;
+    border-radius: 2px;
+    place-items: center;
+}
+
+.BusketItem__Image img{
+    width: 75px;
+}
+
+.BusketItem__Name {
+    text-decoration: none;
+    color: #171717;
+}
+
+.BusketItem__Name:hover {
+    color: #dd219e;
+}
+
+.BusketItem__Select {
+    padding: 10px 17px;
+}
+
+.BusketItem__DeleteBtn {
+    padding: 10px 17px;
+    color: red;
+    background: #f4f4f4;
+    border: 1px solid #171717;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.BusketItem__DeleteBtn:hover,
+.BusketItem__DeleteBtn:focus,
+.BusketItem__DeleteBtn:active{
+    background: #171717;
+    transform: scale(1.2);
+}

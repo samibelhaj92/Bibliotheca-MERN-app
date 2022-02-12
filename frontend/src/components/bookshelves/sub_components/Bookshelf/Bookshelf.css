@@ -1,0 +1,40 @@
+.Bookshelf_Area {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.Bookshelf_Details {
+    display: grid;
+    grid-template-columns: 5fr 1fr 5fr ;
+    gap: 5px; 
+}
+
+.Bookshelf_Details h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 15pt;
+    text-align: center;
+    color: #493423;
+}
+
+.Bookshelf_Details h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 15pt;
+    text-align: center;
+    color: #493423;
+}
+
+.Bookshelf_Details button {
+    border: none;
+    background-color: transparent;
+    font-size: 30pt;
+    color: black;
+}
+
+.Bookshelf_Details button:hover {
+    color: #69443C;
+    cursor: pointer;
+}

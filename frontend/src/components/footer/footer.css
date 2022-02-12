@@ -1,0 +1,64 @@
+footer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Brand_Dev {
+    width: 150px;
+    height: 150px;
+
+}
+
+.Footer_Span {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 15pt;
+    color: #473C38;
+}
+
+.Footer_Span:hover {
+    color: #6188E9;
+}
+
+
+.Social_Links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 10%;
+
+}
+
+.Social_Links .Facebook {
+    color: #473C38;
+    font-size: 25pt;
+}
+
+.Social_Links .Facebook:hover {
+    color: #3b5998;
+    transform: scale(2);
+  }
+
+  .Social_Links .Instagram {
+    color: #473C38;
+    font-size: 25pt;
+}
+
+.Social_Links .Instagram:hover {
+    color: #bc2a8d;
+    transform: scale(2);
+  }
+
+  .Social_Links .Github {
+    color: #473C38;
+    font-size: 25pt;
+}
+
+.Social_Links .Github:hover {
+    color: #171515;
+    transform: scale(2);
+  }

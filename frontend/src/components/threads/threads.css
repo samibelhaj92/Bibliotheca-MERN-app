@@ -1,0 +1,81 @@
+.mainForum {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: url(../Sub_Comp/Brand/picto_A_Threads.png) no-repeat center center;
+    background-size: contain; 
+}
+
+.threads_input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.thread_input {
+    border: none;
+    border-radius: 50pt;
+    width: 400pt;
+    height: 50pt;
+    font-size: 25pt;
+    text-align: center;
+}
+
+.threads_input button {
+    border: none;
+    background: transparent;
+    font-size: 50pt;
+    color: black;
+    cursor: pointer;
+}
+
+.threads_input button:hover {
+    color: #69443C;
+}
+
+.thread h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 25pt;
+    text-align: center;
+    color: #493423;
+}
+
+.thread h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 15pt;
+    text-align: left;
+    color: #493423;
+}
+
+.reply {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.reply_input {
+    border: none;
+    border-radius: 50pt;
+    width: 400pt;
+    height: 50pt;
+    font-size: 25pt;
+    text-align: center;
+}
+
+.reply button {
+    border: none;
+    background: transparent;
+    font-size: 50pt;
+    color: black;
+    cursor: pointer;
+}
+
+.reply button:hover {
+    color: #69443C;
+}

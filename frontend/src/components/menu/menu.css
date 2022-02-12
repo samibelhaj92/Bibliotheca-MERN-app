@@ -1,0 +1,41 @@
+/* Fonts Chart */
+/* font-family: 'Bodoni Moda', serif; */
+
+.Menu_Main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Menu_FirstBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.Menu_FirstBlock img {
+    width: 10%;
+}
+
+.Menu_FirstBlock img:hover {
+    transform: rotate(90deg);
+}
+
+.Menu_SecondBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.Menu_SecondBlock img {
+    width: 10%;
+}
+
+.Menu_SecondBlock img:hover {
+    transform: rotate(-90deg);
+}

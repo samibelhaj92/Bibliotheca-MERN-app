@@ -1,0 +1,49 @@
+.Book {
+  width: 300px;
+  padding: 1rem;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  margin: 8px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Book > img {
+  height: 300px;
+  border-radius: 8px;
+}
+
+.Book__Info > p {
+  margin-bottom: 8px;
+}
+
+.Info__Status {
+  font-weight: bold;
+}
+
+.Info__Name {
+  font-size: 1rem;
+  overflow: hidden;
+}
+
+.Info__Description {
+  font-size: 0.8rem;
+}
+
+.Book__Info__Button button {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+  color: #171717;
+  background: #f4f4f4;
+  padding: 8px 16px;
+  border: 1px solid #171717;
+  font-size: 1rem;
+}
+
+.Book__Info__Button button:hover {
+  background: #171717;
+  color: #f4f4f4;
+}

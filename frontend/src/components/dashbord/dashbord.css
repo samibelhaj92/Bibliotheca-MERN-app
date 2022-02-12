@@ -1,0 +1,110 @@
+/* font-family: 'Bodoni Moda', serif;
+font-family: 'Playfair Display', serif; */
+
+.Dashbord_Main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: url(../Sub_Comp/Brand/picto_Dashbord.png) no-repeat center center;
+    background-size: contain;
+}
+
+.profile_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.titleOne h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 25pt;
+    text-align: center;
+    color: #493423;
+}
+
+.infos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+.info_label h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 15pt;
+    text-align: left;
+    color: #493423;
+}
+
+.info_private span{
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 15pt;
+    text-align: right;
+    color: #493423;
+}
+
+.info_private img {
+    width: 50px;
+    height: 50px;
+    border: 4px solid #473C38;
+    padding: 2px;
+    border-radius: 50%;
+    border-top-color: #E9C261;
+    border-left-color: #6188E9;
+    margin-left: 150pt;
+}
+
+.stats_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stats_label h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 15pt;
+    text-align: left;
+    color: #493423;
+}
+
+.stats_private span {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 15pt;
+    text-align: right;
+    color: #493423;
+}
+
+.contribution_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,57 @@
+.EditBook_Form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25pt;
+}
+
+.EditBook_Pitch h1 {
+    font-family: 'Bodoni Moda', serif;
+    text-align: center;
+    font-size: 40pt;
+    color: black;
+}
+
+.EditBook_Inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15pt;
+}
+
+.EditBook_Inputs input {
+    border: none;
+    border-radius: 50pt;
+    width: 400pt;
+    height: 50pt;
+    font-size: 25pt;
+    text-align: center;
+    margin-bottom: 10pt;   
+}
+
+.EditBook_Inputs select {
+    border: none;
+    border-radius: 50pt;
+    width: 400pt;
+    height: 50pt;
+    font-size: 25pt;
+    text-align: center;
+    margin-bottom: 10pt;   
+}
+
+.EditBook_Button {
+    background-color: white;
+    border: none;
+    border-radius: 50pt;
+    width: 150pt;
+    height: 50pt;
+    font-size: 15pt;
+    font-weight: 900;
+}
+
+.EditBook_Button:hover {
+    color:#6188E9;
+    background-color: black;
+  }
